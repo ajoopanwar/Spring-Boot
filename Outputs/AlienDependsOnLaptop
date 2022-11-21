@@ -1,0 +1,9 @@
+
+2022-11-21 14:08:33.186  INFO 6623 --- [           main] com.example.poc.PocApplication           : Starting PocApplication using Java 17.0.5 on Poojas-MacBook-Air.local with PID 6623 (/Users/pooja/Documents/Pooja_POCs/Spring-Boot/target/classes started by pooja in /Users/pooja/Documents/Pooja_POCs/Spring-Boot)
+2022-11-21 14:08:33.187  INFO 6623 --- [           main] com.example.poc.PocApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-21 14:08:33.399  INFO 6623 --- [           main] com.example.poc.PocApplication           : Started PocApplication in 0.383 seconds (JVM running for 0.534)
+Alien Object Created...
+In Alien ....
+compiling...
+
+Process finished with exit code 0

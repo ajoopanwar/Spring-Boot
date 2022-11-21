@@ -1,5 +1,7 @@
 package com.example.poc;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -11,6 +13,12 @@ public class Alien {
     private int aid;
     private String aname;
     private String atech;
+
+    //@Autowired: Search bean by class type
+    @Autowired
+    //@Qualifier: Search by class name
+    @Qualifier("laptop1")
+    private Laptop laptop;
 
     public Alien() {
         System.out.println("Alien Object Created...");
@@ -42,5 +50,6 @@ public class Alien {
 
     public void show(){
         System.out.println("In Alien ....");
+        laptop.compile();
     }
 }

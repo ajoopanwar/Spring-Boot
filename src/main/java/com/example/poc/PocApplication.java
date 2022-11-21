@@ -13,11 +13,7 @@ public class PocApplication {
 
 		//Due to scope annotation, here, two beans will be created
 		Alien a = context.getBean(Alien.class);
-		Alien a1 = context.getBean(Alien.class);
-
 		a.show();
-		a1.show();
-
 
 	}
 
