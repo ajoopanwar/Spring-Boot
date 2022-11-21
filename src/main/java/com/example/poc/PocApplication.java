@@ -12,12 +12,13 @@ public class PocApplication {
 		ConfigurableApplicationContext context  = SpringApplication.run(PocApplication.class, args);
 
 		//To Validate how many times a bean is created
-//		Alien a = context.getBean(Alien.class);
-//		Alien a1 = context.getBean(Alien.class);
-//		Alien a2 = context.getBean(Alien.class);
+		Alien a = context.getBean(Alien.class);
+		Alien a1 = context.getBean(Alien.class);
+		Alien a2 = context.getBean(Alien.class);
 
 		//Constructor running only once...indicating bean not getting created with every call
-//		a.show();
+		a.show();
+		a1.show();
 
 
 	}
