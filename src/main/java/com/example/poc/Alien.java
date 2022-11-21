@@ -1,8 +1,11 @@
 package com.example.poc;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+//Creates bean only when required.
+@Scope(value = "prototype")
 public class Alien {
 
     private int aid;
