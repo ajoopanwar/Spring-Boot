@@ -9,6 +9,10 @@ public class Alien {
     private String aname;
     private String atech;
 
+    public Alien() {
+        System.out.println("Alien Object Created...");
+    }
+
     public int getAid() {
         return aid;
     }
