@@ -1,2 +1,2 @@
-# spring-booot-poc
+# Spring-Boot
 This is POC for spring boot basics learning
